@@ -7,7 +7,6 @@ import {
   subscribePushNotification,
   unsubscribePushNotification,
 } from "../utils/push-notification";
-import { showSuccess } from "../utils/alert-helper";
 
 class App {
   #content = null;
