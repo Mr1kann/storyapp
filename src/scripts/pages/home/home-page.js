@@ -22,7 +22,7 @@ export default class HomePage {
           style="height: 400px; width: 100%; border-radius: 10px; margin-bottom: 2rem; z-index: 0;">
         </div>
 
-        <h1 class="page-title">Latest Stories</h1>
+        <h2 class="page-title">Latest Stories</h2>
         <div id="stories-grid" class="stories-grid">
           </div>
       </section>

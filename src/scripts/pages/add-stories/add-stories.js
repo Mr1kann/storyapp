@@ -27,17 +27,18 @@ export default class addStories {
           <input type="number" id="lat" name="lat" disabled />
           <label for="lon">Longitude</label>
           <input type="number" id="lon" name="lon" disabled />
-
+          
           <label>Image (Max 1MB)</label>
           <div class="upload-choice">
-            <input type="radio" id="radio-upload" name="uploadType" value="upload" checked>
-            <label for="radio-upload">Upload File</label>
-            <input type="radio" id="radio-camera" name="uploadType" value="camera">
-            <label for="radio-camera">Buka Kamera</label>
+          <input type="radio" id="radio-upload" name="uploadType" value="upload" checked>
+          <label for="radio-upload">Upload File</label>
+          <input type="radio" id="radio-camera" name="uploadType" value="camera">
+          <label for="radio-camera">Buka Kamera</label>
           </div>
-
+          
+          <label for="image">Image</label>
           <div id="upload-container">
-            <input type="file" id="photo" accept="image/*" required />
+            <input type="file" id="photo" accept="image/*" required name="image"/>
           </div>
 
           <div id="camera-container" style="display: none; text-align: center;">
